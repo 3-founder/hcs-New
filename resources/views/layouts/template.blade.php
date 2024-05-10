@@ -20,7 +20,7 @@ Coded by www.creative-tim.com
     <link rel="icon" type="image/png" href="{{ asset('style/assets/img/logo.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Human Capital System | BANK UMKM JATIM
+    Human Capital System | BPR SARIBUMI
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
         name='viewport' />
@@ -95,7 +95,7 @@ Coded by www.creative-tim.com
                     <div class="ml-4 d-flex justify-content-start">
                         <div class="">
                             <span class="copyright">
-                                BANK UMKM JATIM ©
+                                PT. Barouk Raya Technology ©
                                 <script>
                                     document.write(new Date().getFullYear())
                                 </script>

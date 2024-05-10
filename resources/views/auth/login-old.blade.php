@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="{{ asset('style/assets/img/logo.png') }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Human Capital System | BANK UMKM JATIM
+  Human Capital System | BPR SARIBUMI
   </title>  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -38,7 +38,7 @@
             <div class="p-5 inset-x-0 bottom-0">
                 <footer class="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-center p-4 sm:p-6 xl:p-8">
                     <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-                        &copy; {{ date('Y') }} BANK UMKM JATIM. All rights reserved.
+                        &copy; {{ date('Y') }} PT. Barouk Raya Technology. All rights reserved.
                     </p>
                 </footer>
             </div>

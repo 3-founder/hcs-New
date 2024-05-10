@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Human Capital System | BANK UMKM JATIM</title>
+    <title>Human Capital System | BPR SARIBUMI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +61,7 @@
                   </div>
                   <button type="submit" class="btn-login bg-theme-primary text-sm drop-shadow-lg text-white w-full">Masuk</button>
                   <div class="copyright text-center text-xs    font-semibold text-neutral-800">
-                      &copy; Copyright 2022 - {{ date('Y') }} PT. BPR Jatim
+                      &copy; Copyright 2022 - {{ date('Y') }} PT. Barouk Raya Technology
                   </div>
               </form>
           </div>

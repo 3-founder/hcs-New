@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="{{ asset('style/assets/img/logo.png') }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Bio Interface | BANK UMKM JATIM
+  Human Capital System | BPR SARIBUMI
   </title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
