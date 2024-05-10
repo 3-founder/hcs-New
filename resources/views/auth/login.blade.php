@@ -67,7 +67,7 @@
           </div>
       </div>
       <div class="bg-gray-50 w-full lg:block hidden">
-          <img src="{{ asset('style/assets/img/login.svg') }}"  class="max-w-3xl mx-auto" alt="">
+          <img src="{{ asset('style/assets/img/password.svg') }}"  class="max-w-3xl mx-auto" alt="">
       </div>
   </div>
 </body>
