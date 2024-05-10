@@ -156,7 +156,7 @@
                                     <img src="{{ asset('style/assets/img/logo.png') }}">
                                 </div>
                                 <div class="text">
-                                    <p>BANK BPR JATIM<br>BANK UMKM JAWA TIMUR</p>
+                                    <p>BPR SARIBUMI</p>
                                 </div>
                             </div>
 
@@ -240,7 +240,7 @@
                                     <img src="{{ asset('style/assets/img/logo.png') }}">
                                 </div>
                                 <div class="text">
-                                    <p>BANK BPR JATIM<br>BANK UMKM JAWA TIMUR</p>
+                                    <p>BPR SARIBUMI</p>
                                 </div>
                             </div>
 
@@ -328,7 +328,7 @@
                                     <img src="{{ asset('style/assets/img/logo.png') }}">
                                 </div>
                                 <div class="text">
-                                    <p>BANK BPR JATIM<br>BANK UMKM JAWA TIMUR</p>
+                                    <p>BPR SARIBUMI</p>
                                 </div>
                             </div>
 

@@ -3390,28 +3390,28 @@
 
                         if (selectedValueCategory === "Keseluruhan" || selectedValueCategory === "Umur" ||
                             selectedValueCategory === "Jenjang Pendidikan") {
-                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' + category;
+                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' + category;
                         } else {
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory ===
                                 "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi ===
                                         undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---"
                                         ) {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori Divisi_' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori Divisi_' +
                                             selectedValueDivisi + '';
                                     } else {
                                         if (selectedValueBagian === null || selectedValueBagian ===
                                             undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + '';
                                         } else {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + ', Bagian_' + selectedValueBagian +
                                                 '';
@@ -3422,16 +3422,16 @@
                                 "Gaji") {
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueCabang === null || selectedValueCabang === undefined ||
                                         selectedValueCabang === "--- Pilih Cabang ---" ||
                                         selectedValueCabang === "") {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueKantor + '';
                                     } else {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueCabang + '';
                                     }
                                 }
@@ -3440,37 +3440,37 @@
                                 // Kategori Pendidikan
                                 if (selectedValuePendidikan === null || selectedValuePendidikan ===
                                     undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePendidikan + '';
                                 }
                             } else if (selectedValueCategory === "Jabatan") {
                                 // // Kategori jabatan
                                 if (selectedValueJabatan === null || selectedValueJabatan === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueJabatan + '';
                                 }
                             } else if (selectedValueCategory === "Golongan") {
                                 // // Kategori Golongan
                                 if (selectedValuePanggol === null || selectedValuePanggol === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePanggol + '';
                                 }
                             } else {
                                 // // Kategori Status
                                 if (selectedValueStatus === null || selectedValueStatus === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueStatus + '';
                                 }
                             }
@@ -3490,28 +3490,28 @@
 
                         if (selectedValueCategory === "Keseluruhan" || selectedValueCategory === "Umur" ||
                             selectedValueCategory === "Jenjang Pendidikan") {
-                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' + category;
+                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' + category;
                         } else {
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory ===
                                 "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi ===
                                         undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---"
                                         ) {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori Divisi_' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori Divisi_' +
                                             selectedValueDivisi + '';
                                     } else {
                                         if (selectedValueBagian === null || selectedValueBagian ===
                                             undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + '';
                                         } else {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + ', Bagian_' + selectedValueBagian +
                                                 '';
@@ -3522,16 +3522,16 @@
                                 "Gaji") {
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueCabang === null || selectedValueCabang === undefined ||
                                         selectedValueCabang === "--- Pilih Cabang ---" ||
                                         selectedValueCabang === "") {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueKantor + '';
                                     } else {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueCabang + '';
                                     }
                                 }
@@ -3540,37 +3540,37 @@
                                 // Kategori Pendidikan
                                 if (selectedValuePendidikan === null || selectedValuePendidikan ===
                                     undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePendidikan + '';
                                 }
                             } else if (selectedValueCategory === "Jabatan") {
                                 // // Kategori jabatan
                                 if (selectedValueJabatan === null || selectedValueJabatan === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueJabatan + '';
                                 }
                             } else if (selectedValueCategory === "Golongan") {
                                 // // Kategori Golongan
                                 if (selectedValuePanggol === null || selectedValuePanggol === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePanggol + '';
                                 }
                             } else {
                                 // // Kategori Status
                                 if (selectedValueStatus === null || selectedValueStatus === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueStatus + '';
                                 }
                             }
@@ -3752,7 +3752,7 @@
                 },
                 {
                     extend: 'pdfHtml5',
-                    title: 'BANK UMKM Jawa Timur\n Klasifikasi Data Karyawan ',
+                    title: 'BPR SARIBUMI\n Klasifikasi Data Karyawan ',
                     filename: function() {
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCategory = $('#kategori').find('option:selected').text();
@@ -3767,28 +3767,28 @@
 
                         if (selectedValueCategory === "Keseluruhan" || selectedValueCategory === "Umur" ||
                             selectedValueCategory === "Jenjang Pendidikan") {
-                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' + category;
+                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' + category;
                         } else {
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory ===
                                 "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi ===
                                         undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---"
                                         ) {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori Divisi_' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan Kategori Divisi_' +
                                             selectedValueDivisi + '';
                                     } else {
                                         if (selectedValueBagian === null || selectedValueBagian ===
                                             undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + '';
                                         } else {
-                                            return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                            return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + ', Bagian_' + selectedValueBagian +
                                                 '';
@@ -3800,16 +3800,16 @@
                                 "Gaji") {
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueCabang === null || selectedValueCabang === undefined ||
                                         selectedValueCabang === "--- Pilih Cabang ---" ||
                                         selectedValueCabang === "") {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueKantor + '';
                                     } else {
-                                        return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueCabang + '';
                                     }
 
@@ -3819,37 +3819,37 @@
                                 // Kategori Pendidikan
                                 if (selectedValuePendidikan === null || selectedValuePendidikan ===
                                     undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePendidikan + '';
                                 }
                             } else if (selectedValueCategory === "Jabatan") {
                                 // // Kategori jabatan
                                 if (selectedValueJabatan === null || selectedValueJabatan === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueJabatan + '';
                                 }
                             } else if (selectedValueCategory === "Golongan") {
                                 // // Kategori Golongan
                                 if (selectedValuePanggol === null || selectedValuePanggol === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePanggol + '';
                                 }
                             } else {
                                 // // Kategori Status
                                 if (selectedValueStatus === null || selectedValueStatus === undefined) {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
-                                    return 'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                    return 'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueStatus + '';
                                 }
                             }
@@ -3879,32 +3879,32 @@
                         if (selectedValueCategory === "Keseluruhan" || selectedValueCategory === "Umur" ||
                             selectedValueCategory === "Jenjang Pendidikan") {
                             doc.content[0].text =
-                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' + category + '';
+                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' + category + '';
                         } else {
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory ===
                                 "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan Kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi ===
                                         undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---"
                                         ) {
                                         doc.content[0].text =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori Divisi_' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan Kategori Divisi_' +
                                             selectedValueDivisi + '';
                                     } else {
                                         if (selectedValueBagian === null || selectedValueBagian ===
                                             undefined || selectedValueBagian === "--- Pilih Bagian ---") {
                                             doc.content[0].text =
-                                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + '';
                                         } else {
                                             doc.content[0].text =
-                                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori Divisi_' +
+                                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori Divisi_' +
                                                 selectedValueDivisi + ', Sub Divisi_' +
                                                 selectedValueSubDivisi + ', Bagian_' + selectedValueBagian +
                                                 '';
@@ -3916,18 +3916,18 @@
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueCabang === null || selectedValueCabang === undefined ||
                                         selectedValueCabang === "--- Pilih Cabang ---" ||
                                         selectedValueCabang === "") {
                                         doc.content[0].text =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueKantor + '';
                                     } else {
                                         doc.content[0].text =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueCabang + '';
                                     }
                                 }
@@ -3937,44 +3937,44 @@
                                 if (selectedValuePendidikan === null || selectedValuePendidikan ===
                                     undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePendidikan + '';
                                 }
                             } else if (selectedValueCategory === "Jabatan") {
                                 // // Kategori jabatan
                                 if (selectedValueJabatan === null || selectedValueJabatan === undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueJabatan + '';
                                 }
                             } else if (selectedValueCategory === "Golongan") {
                                 // // Kategori Golongan
                                 if (selectedValuePanggol === null || selectedValuePanggol === undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePanggol + '';
                                 }
                             } else {
                                 // // Kategori Status
                                 if (selectedValueStatus === null || selectedValueStatus === undefined) {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     doc.content[0].text =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueStatus + '';
                                 }
                             }
@@ -4038,31 +4038,31 @@
                         if (selectedValueCategory === "Keseluruhan" || selectedValueCategory === "Umur" ||
                             selectedValueCategory === "Jenjang Pendidikan") {
                             header.textContent =
-                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' + category + '';
+                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' + category + '';
                         } else {
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory ===
                                 "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi ===
                                         undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---"
                                         ) {
                                         header.textContent =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan Kategori Divisi_' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan Kategori Divisi_' +
                                             selectedValueDivisi + '';
                                     } else {
                                         if (selectedValueBagian === null || selectedValueBagian ===
                                             undefined || selectedValueBagian === "--- Pilih Bagian ---") {
                                             header.textContent =
-                                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori divisi ' +
+                                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori divisi ' +
                                                 selectedValueDivisi + '_' + selectedValueSubDivisi + '';
                                         } else {
                                             header.textContent =
-                                                'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori divisi ' +
+                                                'BPR SARIBUMI Klasifikasi Data Karyawan kategori divisi ' +
                                                 selectedValueDivisi + '_' + selectedValueSubDivisi +
                                                 ', bagian_' + selectedValueBagian + '';
                                         }
@@ -4073,18 +4073,18 @@
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     if (selectedValueCabang === null || selectedValueCabang === undefined ||
                                         selectedValueCabang === "--- Pilih Cabang ---" ||
                                         selectedValueCabang === "") {
                                         header.textContent =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueKantor + '';
                                     } else {
                                         header.textContent =
-                                            'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                            'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                             category + '_' + selectedValueCabang + '';
                                     }
                                 }
@@ -4094,44 +4094,44 @@
                                 if (selectedValuePendidikan === null || selectedValuePendidikan ===
                                     undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePendidikan + '';
                                 }
                             } else if (selectedValueCategory === "Jabatan") {
                                 // // Kategori jabatan
                                 if (selectedValueJabatan === null || selectedValueJabatan === undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueJabatan + '';
                                 }
                             } else if (selectedValueCategory === "Golongan") {
                                 // // Kategori Golongan
                                 if (selectedValuePanggol === null || selectedValuePanggol === undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValuePanggol + '';
                                 }
                             } else {
                                 // // Kategori Status
                                 if (selectedValueStatus === null || selectedValueStatus === undefined) {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori_' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori_' +
                                         category + '';
                                 } else {
                                     header.textContent =
-                                        'BANK UMKM Jawa Timur Klasifikasi Data Karyawan kategori ' +
+                                        'BPR SARIBUMI Klasifikasi Data Karyawan kategori ' +
                                         category + '_' + selectedValueStatus + '';
                                 }
                             }

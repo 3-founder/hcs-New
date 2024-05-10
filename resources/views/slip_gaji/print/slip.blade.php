@@ -143,7 +143,7 @@
                             <td style="font-weight: 800; padding-top: 5px">Periode {{ Carbon::parse($date)->translatedFormat('Y F') }}</td>
                         </tr>
                         <tr>
-                            <td style="font-weight: 800; padding-top: 5px">Bank BPR Jatim</td>
+                            <td style="font-weight: 800; padding-top: 5px">BPR SARIBUMI</td>
                         </tr>
                     </table>
                 </div>

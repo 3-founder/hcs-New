@@ -308,32 +308,32 @@ $request = isset($request) ? $request : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueCategory === "Keseluruhan") {
-                            return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                            return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                         }else{
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory === "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                                 }else{
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi === undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---") {
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
                                     }else{
                                         if (selectedValueBagian === null || selectedValueBagian === undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
                                         }else{
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
                                         }
                                     }
                                 }
                             }else if(selectedValueCategory === "Kantor"){
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun kategori_' + category + '';
                                 } else {
                                     if(selectedValueCabang === null || selectedValueCabang === undefined || selectedValueCabang === "--- Pilih Cabang ---" || selectedValueCabang === ""){
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
                                     }else{
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
                                     }
                                 }
 
@@ -349,32 +349,32 @@ $request = isset($request) ? $request : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueCategory === "Keseluruhan") {
-                            return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                            return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                         }else{
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory === "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                                 }else{
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi === undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---") {
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
                                     }else{
                                         if (selectedValueBagian === null || selectedValueBagian === undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
                                         }else{
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
                                         }
                                     }
                                 }
                             }else if(selectedValueCategory === "Kantor"){
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun kategori_' + category + '';
                                 } else {
                                     if(selectedValueCabang === null || selectedValueCabang === undefined || selectedValueCabang === "--- Pilih Cabang ---" || selectedValueCabang === ""){
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
                                     }else{
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
                                     }
                                 }
 
@@ -394,7 +394,7 @@ $request = isset($request) ? $request : null;
                 },
                 {
                     extend: 'pdfHtml5',
-                    title: 'Bank UMKM Jawa Timur\n Klasifikasi Data Karyawan ',
+                    title: 'BPR SARIBUMI\n Klasifikasi Data Karyawan ',
                     filename : function(){
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCategory = $('#kategori').find('option:selected').text();
@@ -404,32 +404,32 @@ $request = isset($request) ? $request : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueCategory === "Keseluruhan") {
-                            return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                            return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                         }else{
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory === "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                                 }else{
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi === undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---") {
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
                                     }else{
                                         if (selectedValueBagian === null || selectedValueBagian === undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
                                         }else{
-                                            return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
+                                            return 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
                                         }
                                     }
                                 }
                             }else if(selectedValueCategory === "Kantor"){
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    return 'Bank UMKM Jawa Timur Data Masa Pensiun kategori_' + category + '';
+                                    return 'BPR SARIBUMI Data Masa Pensiun kategori_' + category + '';
                                 } else {
                                     if(selectedValueCabang === null || selectedValueCabang === undefined || selectedValueCabang === "--- Pilih Cabang ---" || selectedValueCabang === ""){
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
                                     }else{
-                                        return 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
+                                        return 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
                                     }
                                 }
 
@@ -452,32 +452,32 @@ $request = isset($request) ? $request : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueCategory === "Keseluruhan") {
-                            doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                            doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                         }else{
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory === "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                                    doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                                 }else{
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi === undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---") {
-                                        doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
+                                        doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
                                     }else{
                                         if (selectedValueBagian === null || selectedValueBagian === undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
+                                            doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
                                         }else{
-                                            doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
+                                            doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
                                         }
                                     }
                                 }
                             }else if(selectedValueCategory === "Kantor"){
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori_' + category + '';
+                                    doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun kategori_' + category + '';
                                 } else {
                                     if(selectedValueCabang === null || selectedValueCabang === undefined || selectedValueCabang === "--- Pilih Cabang ---" || selectedValueCabang === ""){
-                                        doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
+                                        doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
                                     }else{
-                                        doc.content[0].text = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
+                                        doc.content[0].text = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
                                     }
                                 }
 
@@ -530,32 +530,32 @@ $request = isset($request) ? $request : null;
 
                         var header = document.createElement('h1');
                         if (selectedValueCategory === "Keseluruhan") {
-                            header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                            header.textContent = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                         }else{
                             // Kategori divisi, sub divisi, bagian
                             if (selectedValueCategory === "Divisi" || selectedValueCategory === "Sub Divisi" || selectedValueCategory === "Bagian") {
                                 if (selectedValueDivisi === null || selectedValueDivisi === undefined) {
-                                    header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '';
+                                    header.textContent = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '';
                                 }else{
                                     if (selectedValueSubDivisi === null || selectedValueSubDivisi === undefined || selectedValueSubDivisi === "--- Pilih Sub Divisi ---") {
-                                        header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
+                                        header.textContent = 'BPR SARIBUMI Data Masa Pensiun Kategori Divisi_'+selectedValueDivisi+'';
                                     }else{
                                         if (selectedValueBagian === null || selectedValueBagian === undefined || selectedValueBagian === "--- Pilih Bagian ---") {
-                                            header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
+                                            header.textContent = 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+'';
                                         }else{
-                                            header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
+                                            header.textContent = 'BPR SARIBUMI Data Masa Pensiun kategori Divisi_'+selectedValueDivisi+', Sub Divisi_'+selectedValueSubDivisi+', Bagian_'+selectedValueBagian+'';
                                         }
                                     }
                                 }
                             }else if(selectedValueCategory === "Kantor"){
                                 // kategori kantor, cabang
                                 if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                                    header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun kategori_' + category + '';
+                                    header.textContent = 'BPR SARIBUMI Data Masa Pensiun kategori_' + category + '';
                                 } else {
                                     if(selectedValueCabang === null || selectedValueCabang === undefined || selectedValueCabang === "--- Pilih Cabang ---" || selectedValueCabang === ""){
-                                        header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
+                                        header.textContent = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category + '_'+selectedValueKantor+'';
                                     }else{
-                                        header.textContent = 'Bank UMKM Jawa Timur Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
+                                        header.textContent = 'BPR SARIBUMI Data Masa Pensiun Kategori_' + category +' '+selectedValueKantor+'_'+selectedValueCabang+'';
                                     }
                                 }
 

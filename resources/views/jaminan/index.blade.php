@@ -298,24 +298,24 @@ $request = isset($request) ? $request : null;
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     filename : function() {
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     message: 'Rekapitulasi Beban Asuransi\n kategori - '+category+' - ' + bulan + ' ' + tahun,
@@ -328,17 +328,17 @@ $request = isset($request) ? $request : null;
                 },
                 {
                     extend: 'pdfHtml5',
-                    title: 'Bank UMKM Jawa Timur\n Laporan Jamsostek Kategori - '+category+' - ' + bulan + ' ' + tahun,
+                    title: 'BPR SARIBUMI\n Laporan Jamsostek Kategori - '+category+' - ' + bulan + ' ' + tahun,
                     filename : function() {
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     text:'PDF',
@@ -353,9 +353,9 @@ $request = isset($request) ? $request : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            doc.content[0].text = ' Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            doc.content[0].text = ' BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
-                            doc.content[0].text = ' Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            doc.content[0].text = ' BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
 
                         doc.styles.tableHeader.fontSize = 10;
@@ -400,12 +400,12 @@ $request = isset($request) ? $request : null;
 
                         var header = document.createElement('h1');
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            header.textContent = ' Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            header.textContent = ' BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                header.textContent = 'Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                header.textContent = 'BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            header.textContent = ' Bank UMKM Jawa Timur Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            header.textContent = ' BPR SARIBUMI Laporan Jamsostek kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                         win.document.body.insertBefore(header, win.document.body.firstChild);
 

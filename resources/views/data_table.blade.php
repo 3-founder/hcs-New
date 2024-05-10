@@ -86,7 +86,7 @@ Coded by www.creative-tim.com
             </li>
             <li class="active-pro">
                 <a href="">
-                <p class="text-center">BANK BPR JATIM</p>
+                <p class="text-center">BPR SARIBUMI</p>
                 </a>
             </li>
         </ul>

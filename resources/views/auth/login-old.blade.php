@@ -85,7 +85,7 @@
                 </div>
                 <nav class="login-card-footer-nav">
                   <span class="copyright">
-                    © 2022 PT. BPR Jatim
+                    © 2022 PT. Barouk Raya Technology
                   </span>
                 </nav>
             </div>

@@ -179,8 +179,8 @@
         buttons: [
             {
                 extend: 'excelHtml5',
-                title: 'Bank UMKM Jawa Timur',
-                filename : 'Bank UMKM Jawa Timur Laporan PJS',
+                title: 'BPR SARIBUMI',
+                filename : 'BPR SARIBUMI Laporan PJS',
                 message: 'Laporan PJS\n ',
                 text:'Excel',
                 header: true,
@@ -191,8 +191,8 @@
             },
             {
                 extend: 'pdfHtml5',
-                title: 'Bank UMKM Jawa Timur\n Laporan PJS ',
-                filename : 'Bank UMKM Jawa Timur Laporan PJS',
+                title: 'BPR SARIBUMI\n Laporan PJS ',
+                filename : 'BPR SARIBUMI Laporan PJS',
                 text:'PDF',
                 footer: true,
                 paperSize: 'A4',
@@ -229,7 +229,7 @@
             },
             {
                 extend: 'print',
-                title: 'Bank UMKM Jawa Timur Laporan PJS ',
+                title: 'BPR SARIBUMI Laporan PJS ',
                 text:'print',
                 footer: true,
                 paperSize: 'A4',

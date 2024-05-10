@@ -134,7 +134,7 @@
                 <div style="padding-left: 20px;">
                     <h4>SLIP GAJI PEGAWAI</h4>
                     <h6>Periode {{ Carbon::parse($date)->translatedFormat('F Y') }}</h6>
-                    <h4>Bank BPR Jatim</h4>
+                    <h4>BPR SARI BUMI</h4>
                 </div>
             </div>
         </div>

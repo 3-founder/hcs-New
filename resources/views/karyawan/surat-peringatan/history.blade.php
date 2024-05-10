@@ -194,8 +194,8 @@ $("#sp-table").DataTable({
     buttons: [
         {
             extend: 'excelHtml5',
-            title: 'Bank UMKM Jawa Timur',
-            filename : 'Bank UMKM Jawa Timur Laporan Surat Peringatan',
+            title: 'BPR SARIBUMI',
+            filename : 'BPR SARIBUMI Laporan Surat Peringatan',
             message: 'Laporan Surat Peringatan\n ',
             text:'Excel',
             header: true,
@@ -206,8 +206,8 @@ $("#sp-table").DataTable({
         },
         {
             extend: 'pdfHtml5',
-            title: 'Bank UMKM Jawa Timur\n Laporan Surat Peringatan ',
-            filename : 'Bank UMKM Jawa Timur Laporan Surat Peringatan',
+            title: 'BPR SARIBUMI\n Laporan Surat Peringatan ',
+            filename : 'BPR SARIBUMI Laporan Surat Peringatan',
             text:'PDF',
             footer: true,
             paperSize: 'A4',
@@ -244,7 +244,7 @@ $("#sp-table").DataTable({
         },
         {
             extend: 'print',
-            title: 'Bank UMKM Jawa Timur Laporan Surat Peringatan ',
+            title: 'BPR SARIBUMI Laporan Surat Peringatan ',
             text:'print',
             footer: true,
             paperSize: 'A4',

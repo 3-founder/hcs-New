@@ -28,7 +28,7 @@
                         @endphp 
                         {{ $nama }}
                     </h5> 
-                    <h5 class="card-title text-center">DANA PENSIUN PEGAWAI BANK BPR JATIM</h5>
+                    <h5 class="card-title text-center">DANA PENSIUN PEGAWAI BPR SARIBUMI</h5>
                     <h5 class="card-title text-center" id="bulan">
                        @switch($bulan)
                             @case(1)
@@ -215,7 +215,7 @@
             buttons: [
                 {
                     extend: 'excelHtml5',
-                    title: 'Bank UMKM Jawa Timur\n Bulan '+name,
+                    title: 'BPR SARIBUMI\n Bulan '+name,
                     text:'Excel' 
                 }
             ]

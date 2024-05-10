@@ -28,7 +28,7 @@
                         @endphp 
                         {{ $nama }}
                     </h5> 
-                    <h5 class="card-title text-center">BANK UMKM JAWA TIMUR</h5>
+                    <h5 class="card-title text-center">BPR SARIBUMI</h5>
                     <h5 class="card-title text-center" id="bulan">
                        @switch($bulan)
                             @case(1)
@@ -322,7 +322,7 @@
             buttons: [
                 {
                     extend: 'excelHtml5',
-                    title: 'Bank UMKM Jawa Timur\n Bulan '+name,
+                    title: 'BPR SARIBUMI\n Bulan '+name,
                     text:'Excel',
                     customize: function( xlsx, row ) {
                         var sheet = xlsx.xl.worksheets['sheet1.xml'];

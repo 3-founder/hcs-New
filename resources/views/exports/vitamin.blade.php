@@ -23,7 +23,7 @@
             <th colspan="4" align="center" style="font-size: 20px;"><b>{{auth()->user()->hasRole('cabang') ? 'KANTOR ' . strtoupper($cabang->nama_cabang) : 'KANTOR PUSAT' }} </b></th>
         </tr>
         <tr>
-            <th colspan="4" align="center" style="font-size: 20px;"><b>BANK BPR JATIM BANK UMKM JAWA TIMUR</b></th>
+            <th colspan="4" align="center" style="font-size: 20px;"><b>BPR SARIBUMI</b></th>
         </tr>
         <tr>
             <th colspan="4" align="center" style="font-size: 20px;"><b>{{ $namaBulan[$bulan] }} {{ $tahun }}</b>

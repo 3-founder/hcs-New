@@ -167,7 +167,7 @@
                             <div class="pl-2" style="margin-left: 2rem;">
                                 <h4 class="text-bold my-0">SLIP GAJI PEGAWAI</h4>
                                 <h6 class="text-bold mt-2 mb-0 periode">Periode</h6>
-                                <h6 class="text-bold mt-2 mb-0">Bank BPR Jatim</h6>
+                                <h6 class="text-bold mt-2 mb-0">BPR SARIBUMI</h6>
                             </div>
                         </div>
                         <div class="p-2" id="">

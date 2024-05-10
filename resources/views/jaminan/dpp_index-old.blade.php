@@ -268,24 +268,24 @@ $status = isset($status) ? $status : null;
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     filename : function() {
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     message: 'Rekapitulasi DPP\n ' + bulan + ' ' + tahun,
@@ -298,17 +298,17 @@ $status = isset($status) ? $status : null;
                 },
                 {
                     extend: 'pdfHtml5',
-                    title: 'Bank UMKM Jawa Timur\n Rekapitulasi DPP ' + bulan + ' ' + tahun,
+                    title: 'BPR SARIBUMI\n Rekapitulasi DPP ' + bulan + ' ' + tahun,
                     filename : function() {
                         var selectedValueKantor = $('#kantor').val();
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            return 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            return 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                     },
                     text:'PDF',
@@ -323,9 +323,9 @@ $status = isset($status) ? $status : null;
                         var selectedValueCabang = $('#cabang').find('option:selected').text();
 
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            doc.content[0].text = ' Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            doc.content[0].text = ' BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
-                            doc.content[0].text = ' Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            doc.content[0].text = ' BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                         
                         doc.styles.tableHeader.fontSize = 10; 
@@ -370,12 +370,12 @@ $status = isset($status) ? $status : null;
 
                         var header = document.createElement('h1');
                         if (selectedValueKantor === null || selectedValueKantor === undefined) {
-                            header.textContent = 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
+                            header.textContent = 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - ' + bulan + ' ' + tahun;
                         } else {
                             if(selectedValueCabang === null || selectedValueCabang === undefined){
-                                header.textContent = 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
+                                header.textContent = 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' - ' + bulan + ' ' + tahun;
                             }
-                            header.textContent = 'Bank UMKM Jawa Timur Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
+                            header.textContent = 'BPR SARIBUMI Laporan Rekapitulasi DPP Kategori - ' + category + ' - '+selectedValueKantor+' '+selectedValueCabang+' - ' + bulan + ' ' + tahun;
                         }
                         win.document.body.insertBefore(header, win.document.body.firstChild);
         

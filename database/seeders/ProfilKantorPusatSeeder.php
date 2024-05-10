@@ -20,9 +20,9 @@ class ProfilKantorPusatSeeder extends Seeder
             'masa_pajak' => '07-2023',
             'tanggal_lapor' => '2023-01-20',
             'npwp_pemotong' => '019419159631000',
-            'nama_pemotong' => 'PT. BPR JATIM',
+            'nama_pemotong' => 'BPR SARIBUMI',
             'telp' => '0315677844',
-            'email' => 'bprjatim@gmail.com',
+            'email' => 'bprsaribumi@gmail.com',
             'npwp_pemimpin_cabang' => '247504327618000',
             'nama_pemimpin_cabang' => 'AGUNG SOEPRIHATMANTO',
         ]);

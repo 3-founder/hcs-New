@@ -96,7 +96,7 @@
         @else
             <h5 class="fw-bold text-center">KANTOR PUSAT</h5>
         @endif
-        <h5 class="fw-bold text-center">BANK BPR JATIM BANK UMKM JAWA TIMUR</h5>
+        <h5 class="fw-bold text-center">BPR SARIBUMI</h5>
         <h6 class="fw-bold text-center">{{ $bulan[$month] }} {{ $year }}</h6>
         <center style="font-size: 10px; text-align: center" class="text-center">( MASUK TAB. SIKEMAS )</center>
         <div class="d-flex justify-content-end mb-1">
